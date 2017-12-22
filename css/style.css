@@ -1,0 +1,250 @@
+@charset "utf-8";
+
+/* font-family: 'Raleway', sans-serif; */
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.separator {
+  height: 3px;
+  width: 5%;
+  border: none;
+  box-shadow: none;
+  background-color: #8D87FF;
+  margin-bottom: 10%;
+}
+
+.btn-custom {
+  background-color: #8D87FF;
+  color: #ffffff;
+  text-shadow: 1px 1px 20px #000000;
+}
+
+.btn-custom:hover {
+  background-color: #ffed00;
+}
+
+/* header */
+.header {
+  background-color: #544b4b;
+  height: 72px;
+  line-height: 70px;
+}
+
+.logo {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -10px;
+  margin-left: 5%;
+  float: left;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 800;
+  font-family: 'proxima-nova', sans-serif;
+    text-shadow: 1px 1px 20px #000000;
+}
+
+.point {
+  color: #fc3434;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -10px;
+  margin-left: 10px;
+  float: left;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: 'proxima-nova', sans-serif;
+    text-shadow: 1px 1px 20px #000000;
+}
+
+.logo:hover{
+  color: #ffed00;
+}
+
+.menu {
+  float: right;
+}
+
+.menu a {
+  color: #ffffff;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-shadow: 1px 1px 20px #000000;
+
+}
+
+.menu a:hover {
+  color: #ffed00;
+}
+
+header .menu .home {
+  background-color: #8D87FF;
+  color: #fff;
+  padding: 0 10px;
+  margin-right: -5px;
+  height: 72px;
+  display: inline-block;
+}
+
+header .menu .ninten {
+  background-color: #e26352;
+  color: #fff;
+  padding: 0 10px;
+  margin-right: -5px;
+  height: 72px;
+  display: inline-block;
+}
+
+header .menu .gam {
+  background-color: #ffed00;
+  color: #fff;
+  margin-right: -5px;
+  padding: 0 10px;
+  height: 72px;
+  display: inline-block;
+}
+
+header .menu .news {
+  background-color: #5fd464;
+  color: #fff;
+  margin: auto;
+  padding: 0 10px;
+  height: 72px;
+  display: inline-block;
+}
+
+
+/* Banniere */
+.banner {
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.ban img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.inner-banner {
+  position:absolute;
+  top: 60%;
+  left: 0;
+  width: 100%;
+  text-align:center;
+}
+
+.inner-banner h1 {
+  color: #ffffff;
+  text-shadow: 1px 1px 20px #000000;
+}
+
+/* à propos */
+#nintendo {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 40px;
+}
+
+.nintendo article {
+  margin-bottom: 10%;
+}
+
+.nintendo article h2 {
+  text-align: center;
+}
+
+
+/* games */
+
+.games {
+  background-color: #e4e4e4;
+  padding-bottom: 80px;
+}
+
+#games {
+  margin-top: 10%;
+  text-align: center;
+  font-size: 40px;
+}
+.games .item-folio {
+  height: 300px;
+}
+
+article img {
+  width: 100%;
+  height:  auto;
+}
+
+.img-container {
+  margin: 10px;
+}
+
+article .img-container {
+  background-color: #ffffff ;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-container p {
+  padding: 10px;
+}
+
+/* Contact */
+.footer {
+  background-color: #4c4463;
+}
+
+#newsletter {
+  margin-top: 10%;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.formulaireNewsmetter {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+input {
+  margin-bottom: 30px;
+}
+
+input[type=text] {
+  height: 50px;
+  width: 500px;
+  border: none;
+}
+
+input[type=email] {
+  height: 50px;
+  width: 500px;
+  border: none;
+}
+
+#contact-submit {
+  margin-bottom: 10%;
+}
